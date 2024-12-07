@@ -2,7 +2,7 @@ import React, { SetStateAction, useState } from "react"
 import { IProduct } from "../service/Products"
 import { ProductCardAddIcon } from "../assets/images/icon"
 import { Segmented } from 'antd'
-import { useDispatch } from "react-redux"  // muammo bolish mumkin
+import { useDispatch } from "react-redux" 
 import OrderButton from "./OrderButton"
 import { saveOrderProducts } from "../store/orderSlice"
 
